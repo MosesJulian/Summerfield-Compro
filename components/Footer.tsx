@@ -7,8 +7,10 @@ export type FooterProps = {
 
 const Footer: FC<FooterProps> = ({ className }: FooterProps) => {
 	return (
-		<footer className={clsx('flex justify-center items-center', className)}>
-			<p className="text-lg font-semibold text-center">
+		<footer
+			className={clsx('flex justify-center items-center z-10', className)}
+		>
+			<p className="text-xl font-semibold text-center">
 				&copy; Summerfield Homestay & Cafe 2023
 			</p>
 		</footer>

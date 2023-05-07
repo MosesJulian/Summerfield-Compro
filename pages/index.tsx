@@ -26,12 +26,12 @@ const Home: NextPage = () => {
 
 			<Header />
 
-			<div className="flex flex-col gap-4">
+			<div className="flex flex-col">
 				<Introduction />
-				<About className="px-16 py-4" />
+				<About className="px-16 py-8" />
 			</div>
 
-			<Footer className="mt-4 px-16 py-4" />
+			<Footer className="px-16 py-8" />
 		</>
 	);
 };
