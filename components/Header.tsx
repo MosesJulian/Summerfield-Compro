@@ -7,6 +7,10 @@ import NavLink from './NavLink';
 import Image from 'next/image';
 import Summerfield from '@/public/summerfield.png';
 
+export type HeaderProps = {
+	className?: string;
+};
+
 const shouldShowShadow = () => {
 	if (window == null) return false;
 
@@ -14,7 +18,7 @@ const shouldShowShadow = () => {
 	return window.scrollY > show;
 };
 
-const Header: FC = () => {
+const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 	const [showShadow, setShowShadow] = useState<boolean>(false);
 
 	const handleScroll = () => {
@@ -27,6 +31,7 @@ const Header: FC = () => {
 	return (
 		<header
 			className={clsx(
+				className,
 				'flex gap-2 justify-between top-0 fixed inset-x-0 px-36 py-4 transition-colors duration-500 z-20',
 				!showShadow && 'text-white',
 				showShadow && 'backdrop-blur-md bg-white/80 shadow'
