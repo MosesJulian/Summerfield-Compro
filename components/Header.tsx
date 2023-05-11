@@ -18,6 +18,10 @@ const shouldShowShadow = () => {
 	return window.scrollY > show;
 };
 
+export type Navigator = string[];
+
+const navigator: Navigator = ['home', 'about', 'contact'];
+
 const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 	const [showShadow, setShowShadow] = useState<boolean>(false);
 
@@ -45,19 +49,20 @@ const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 					alt="Summerfield"
 					className="rounded-full"
 				/>
-				<h1 className="text-xl font-bold">Summerfield</h1>
+				<h1 className="text-xl font-bold">Summerfield Homestay & Cafe</h1>
 			</div>
 
 			<nav className="flex justify-end font-semibold text-lg gap-10 items-center">
-				<NavLink href="#home" showShadow={showShadow}>
-					Home
-				</NavLink>
-				<NavLink href="#home" showShadow={showShadow}>
-					About
-				</NavLink>
-				<NavLink href="#home" showShadow={showShadow}>
-					Contact
-				</NavLink>
+				{navigator.map((nav, index) => (
+					<NavLink
+						href={`#${nav}`}
+						showShadow={showShadow}
+						key={index}
+						className="capitalize"
+					>
+						{nav}
+					</NavLink>
+				))}
 			</nav>
 		</header>
 	);
