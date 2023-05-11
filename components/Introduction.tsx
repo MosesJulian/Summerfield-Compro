@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import Image from 'next/image';
 import { FC } from 'react';
 
 export type IntroductionProps = {
@@ -15,6 +14,7 @@ const Introduction: FC<IntroductionProps> = ({
 				'flex gap-4 introduction justify-center items-center',
 				className
 			)}
+			id="home"
 		>
 			<div className="flex flex-col gap-10 px-36 py-12 max-w-[1000px]">
 				<h1 className="text-6xl font-bold text-white flex gap-6">
