@@ -18,6 +18,10 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 			)}
 			id="rooms"
 		>
+			<div className="col-span-2 text-xl font-bold text-center">
+				<span className="text-4xl font-bold text-primary-text">Our Rooms</span>
+			</div>
+
 			<div className="flex flex-col gap-5 w-full p-5 col-span-1 z-[5] rounded-3xl shadow-lg">
 				<span className="text-xl font-semibold">Summer One</span>
 
