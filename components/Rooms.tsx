@@ -3,7 +3,7 @@ import { FC } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Image from 'next/image';
-import { Room1, Room2 } from '@/public/photos';
+import { room1, room2 } from '@/data/data';
 
 export type RoomsProps = {
 	className?: string;
@@ -19,11 +19,11 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 			id="rooms"
 		>
 			<div className="col-span-2 text-xl font-bold text-center">
-				<span className="text-4xl font-bold text-primary-text">Our Rooms</span>
+				<h1 className="text-4xl font-bold text-primary-text">Our Rooms</h1>
 			</div>
 
 			<div className="flex flex-col gap-5 w-full p-5 col-span-1 z-[5] rounded-3xl shadow-lg">
-				<span className="text-xl font-semibold">Summer One</span>
+				<h2 className="text-xl font-semibold">Summer One</h2>
 
 				<Carousel
 					showArrows={true}
@@ -34,7 +34,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 					interval={5000}
 					className="max-w-full max-h-[350px]"
 				>
-					{Room1.images.map((image, index) => (
+					{room1.images.map((image, index) => (
 						<div key={index} className="max-w-full max-h-[350px]">
 							<Image
 								src={image}
@@ -57,7 +57,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 			</div>
 
 			<div className="flex flex-col gap-5 w-full p-5 col-span-1 z-[5] rounded-3xl shadow-lg">
-				<span className="text-xl font-semibold">Summer Two</span>
+				<h2 className="text-xl font-semibold">Summer Two</h2>
 
 				<Carousel
 					showArrows={true}
@@ -68,7 +68,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 					interval={5000}
 					className="max-w-full max-h-[350px]"
 				>
-					{Room2.images.map((image, index) => (
+					{room2.images.map((image, index) => (
 						<div key={index} className="max-w-full max-h-[350px]">
 							<Image
 								src={image}

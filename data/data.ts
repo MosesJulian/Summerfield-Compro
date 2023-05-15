@@ -15,7 +15,13 @@ export type Rooms = {
 	images: StaticImageData[];
 };
 
-const Room1 = {
+export type Attractions = Array<{
+	title: string;
+	images: StaticImageData[];
+	description: string;
+}>;
+
+const room1: Rooms = {
 	images: [
 		RoomOne1,
 		RoomOne2,
@@ -27,6 +33,34 @@ const Room1 = {
 	],
 };
 
-const Room2 = { images: [RoomTwo1, RoomTwo2, RoomTwo3, RoomTwo4] };
+const room2: Rooms = { images: [RoomTwo1, RoomTwo2, RoomTwo3, RoomTwo4] };
 
-export { Room1, Room2 };
+const attractions: Attractions = [
+	{
+		title: 'Boat Trip at Cokel River',
+		images: [],
+		description: '',
+	},
+	{
+		title: 'Hill View at Kasap Beach',
+		images: [],
+		description: '',
+	},
+	{
+		title: 'Watukarung Beach',
+		images: [],
+		description: '',
+	},
+	{
+		title: 'Tracking to the Waterfall',
+		images: [],
+		description: '',
+	},
+	{
+		title: 'Sirahtowo Beach',
+		images: [],
+		description: '',
+	},
+];
+
+export { room1, room2, attractions };
