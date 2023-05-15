@@ -32,6 +32,7 @@ const Introduction: FC<IntroductionProps> = ({
 				<Link
 					href={`https://wa.me/+6285211662279?text=${bookingMessage}`}
 					target="_blank"
+					className="max-w-max"
 				>
 					<button className="rounded-full uppercase bg-secondary text-white text-center max-w-max p-4 font-semibold transition-colors duration-300 hover:bg-primary-text">
 						Book your stay
