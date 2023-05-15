@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Link from 'next/link';
 import { FC } from 'react';
 
 export type IntroductionProps = {
@@ -8,6 +9,8 @@ export type IntroductionProps = {
 const Introduction: FC<IntroductionProps> = ({
 	className,
 }: IntroductionProps) => {
+	const bookingMessage = `Hello, I'm interested in booking a room. Please let me know if there is availability.`;
+
 	return (
 		<div
 			className={clsx(
@@ -25,9 +28,15 @@ const Introduction: FC<IntroductionProps> = ({
 					guests a full range of amenities and services. With our dedicated
 					staffs, your stay can be as relaxing or active as you want it to be.
 				</p>
-				<button className="rounded-full uppercase bg-secondary text-white text-center max-w-max p-4 font-semibold transition-colors duration-300 hover:bg-primary-text">
-					Book your stay
-				</button>
+
+				<Link
+					href={`https://wa.me/+6285211662279?text=${bookingMessage}`}
+					target="_blank"
+				>
+					<button className="rounded-full uppercase bg-secondary text-white text-center max-w-max p-4 font-semibold transition-colors duration-300 hover:bg-primary-text">
+						Book your stay
+					</button>
+				</Link>
 			</div>
 		</div>
 	);
