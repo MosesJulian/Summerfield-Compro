@@ -20,7 +20,13 @@ const shouldShowShadow = () => {
 
 export type Navigator = string[];
 
-const navigator: Navigator = ['home', 'about', 'contact'];
+const navigator: Navigator = [
+	'home',
+	'about',
+	'rooms',
+	'attractions',
+	'contact',
+];
 
 const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 	const [showShadow, setShowShadow] = useState<boolean>(false);

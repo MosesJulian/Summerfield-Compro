@@ -15,6 +15,7 @@ const Attractions: FC<AttractionsProps> = ({ className }: AttractionsProps) => {
 				'flex flex-col gap-8 justify-center items-center px-56',
 				className
 			)}
+			id="attractions"
 		>
 			<h1 className="text-4xl font-bold text-primary-text">
 				Attractions Near Us
