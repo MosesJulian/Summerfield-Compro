@@ -38,6 +38,10 @@ const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 	useEffect(handleScroll, []);
 	useWindowEvent('scroll', handleScroll);
 
+	useWindowEvent('resize', () => {
+		console.log(window.outerWidth);
+	});
+
 	return (
 		<header
 			className={clsx(
@@ -54,6 +58,7 @@ const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 					height={50}
 					alt="Summerfield"
 					className="rounded-full"
+					loading="lazy"
 				/>
 				<h1 className="text-xl font-bold">Summerfield Homestay & Cafe</h1>
 			</div>

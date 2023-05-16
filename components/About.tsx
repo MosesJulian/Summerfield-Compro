@@ -40,11 +40,13 @@ const About: FC<AboutProps> = ({ className }: AboutProps) => {
 						src={About1}
 						className="col-span-1 rounded-3xl w-full aspect-square"
 						alt=""
+						loading="lazy"
 					/>
 					<Image
 						src={About2}
 						className="col-span-2 rounded-3xl h-full"
 						alt=""
+						loading="lazy"
 					/>
 				</div>
 			</div>
@@ -67,11 +69,13 @@ const About: FC<AboutProps> = ({ className }: AboutProps) => {
 						src={About3}
 						className="col-span-5 rounded-3xl w-full h-full"
 						alt=""
+						loading="lazy"
 					/>
 					<Image
 						src={About4}
 						className="col-span-2 rounded-3xl w-full h-full"
 						alt=""
+						loading="lazy"
 					/>
 				</div>
 			</div>
@@ -102,11 +106,13 @@ const About: FC<AboutProps> = ({ className }: AboutProps) => {
 						src={About5}
 						className="col-span-1 rounded-3xl h-full aspect-video"
 						alt=""
+						loading="lazy"
 					/>
 					<Image
 						src={About6}
 						className="col-span-1 rounded-3xl w-full aspect-square"
 						alt=""
+						loading="lazy"
 					/>
 				</div>
 			</div>

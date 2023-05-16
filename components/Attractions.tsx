@@ -25,8 +25,9 @@ const Attractions: FC<AttractionsProps> = ({ className }: AttractionsProps) => {
 				showArrows={true}
 				showIndicators={true}
 				infiniteLoop={true}
-				autoPlay={true}
+				showThumbs={false}
 				dynamicHeight={false}
+				autoPlay={true}
 				interval={5000}
 				className="w-full"
 			>
@@ -41,8 +42,7 @@ const Attractions: FC<AttractionsProps> = ({ className }: AttractionsProps) => {
 									src={image}
 									className="col-span-1 rounded-3xl aspect-square max-w-full max-h-[350px]"
 									alt=""
-									width={500}
-									height={350}
+									loading="lazy"
 								/>
 							))}
 						</div>

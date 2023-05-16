@@ -29,8 +29,9 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 					showArrows={true}
 					showIndicators={true}
 					infiniteLoop={true}
-					autoPlay={true}
+					showThumbs={false}
 					dynamicHeight={false}
+					autoPlay={true}
 					interval={5000}
 					className="max-w-full max-h-[350px]"
 				>
@@ -40,8 +41,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 								src={image}
 								className="rounded-3xl aspect-square max-w-full max-h-[350px]"
 								alt=""
-								width={1000}
-								height={350}
+								loading="lazy"
 							/>
 						</div>
 					))}
@@ -63,8 +63,9 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 					showArrows={true}
 					showIndicators={true}
 					infiniteLoop={true}
-					autoPlay={true}
+					showThumbs={false}
 					dynamicHeight={false}
+					autoPlay={true}
 					interval={5000}
 					className="max-w-full max-h-[350px]"
 				>
@@ -74,8 +75,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 								src={image}
 								className="rounded-3xl aspect-square max-w-full max-h-[350px]"
 								alt=""
-								width={1000}
-								height={350}
+								loading="lazy"
 							/>
 						</div>
 					))}
