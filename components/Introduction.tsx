@@ -19,11 +19,11 @@ const Introduction: FC<IntroductionProps> = ({
 			)}
 			id="home"
 		>
-			<div className="flex flex-col gap-10 px-36 py-12 max-w-[1000px]">
-				<h1 className="text-6xl font-bold text-white flex gap-6">
+			<div className="flex flex-col gap-3 lg:gap-10 lg:px-36 max-w-[1000px] px-8 md:px-16">
+				<h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-white flex gap-6">
 					Unforgetable vacation without all the hassle
 				</h1>
-				<p className="text-xl text-white">
+				<p className="text-base md:text-lg lg:text-xl text-white">
 					Summerfield ensures your stay is as comfortable as possible. We offer
 					guests a full range of amenities and services. With our dedicated
 					staffs, your stay can be as relaxing or active as you want it to be.
@@ -34,7 +34,7 @@ const Introduction: FC<IntroductionProps> = ({
 					target="_blank"
 					className="max-w-max"
 				>
-					<button className="rounded-full uppercase bg-secondary text-white text-center max-w-max p-4 font-semibold transition-colors duration-300 hover:bg-primary-text">
+					<button className="text-xs md:text-sm lg:text-base rounded-full uppercase bg-secondary text-white text-center max-w-max p-4 font-semibold transition-colors duration-300 hover:bg-primary-text">
 						Book your stay
 					</button>
 				</Link>

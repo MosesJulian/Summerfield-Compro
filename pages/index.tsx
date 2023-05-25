@@ -8,14 +8,18 @@ import { NextPage } from 'next';
 import Attractions from '@/components/Attractions';
 import Contact from '@/components/Contact';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+	subsets: ['latin'],
+	weight: ['400', '500', '700'],
+	variable: '--font-inter',
+});
 
 const Home: NextPage = () => {
 	return (
 		<>
 			<Header />
 
-			<div className="flex flex-col">
+			<div className={`flex flex-col ${inter.variable} font-inter`}>
 				<Introduction />
 				<About className="px-16 py-8" />
 				<Rooms className="px-16 py-8" />

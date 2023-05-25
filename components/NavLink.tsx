@@ -16,7 +16,7 @@ const NavLink = ({
 		<a
 			{...props}
 			className={clsx(
-				'transition-transform duration-300 ease-in-out hover:translate-y-[0.25rem]',
+				'lg:transition-transform duration-300 ease-in-out lg:hover:translate-y-[0.25rem] flex gap-3',
 				className,
 				showShadow && 'hover:text-primary-text'
 			)}

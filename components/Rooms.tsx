@@ -13,7 +13,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 	return (
 		<div
 			className={clsx(
-				'grid grid-cols-2 gap-8 justify-center items-stretch px-56',
+				'grid grid-cols-2 gap-8 justify-center items-stretch px-10 md:px-20 lg:px-56',
 				className
 			)}
 			id="rooms"
@@ -22,7 +22,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 				<h1 className="text-4xl font-bold text-primary-text">Our Rooms</h1>
 			</div>
 
-			<div className="flex flex-col gap-5 w-full p-5 col-span-1 z-[5] rounded-3xl shadow-lg">
+			<div className="flex flex-col gap-5 w-full p-5 col-span-2 md:col-span-1 z-[5] rounded-3xl shadow-lg">
 				<h2 className="text-xl font-semibold">Summer One</h2>
 
 				<Carousel
@@ -56,7 +56,7 @@ const Rooms: FC<RoomsProps> = ({ className }: RoomsProps) => {
 				</div>
 			</div>
 
-			<div className="flex flex-col gap-5 w-full p-5 col-span-1 z-[5] rounded-3xl shadow-lg">
+			<div className="flex flex-col gap-5 w-full p-5 col-span-2 md:col-span-1 z-[5] rounded-3xl shadow-lg">
 				<h2 className="text-xl font-semibold">Summer Two</h2>
 
 				<Carousel

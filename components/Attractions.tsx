@@ -12,7 +12,7 @@ const Attractions: FC<AttractionsProps> = ({ className }: AttractionsProps) => {
 	return (
 		<div
 			className={clsx(
-				'flex flex-col gap-8 justify-center items-center px-56',
+				'flex flex-col gap-8 justify-center items-center px-10 md:px-20 lg:px-56',
 				className
 			)}
 			id="attractions"
@@ -40,7 +40,7 @@ const Attractions: FC<AttractionsProps> = ({ className }: AttractionsProps) => {
 								<Image
 									key={index}
 									src={image}
-									className="col-span-1 rounded-3xl aspect-square max-w-full max-h-[350px]"
+									className="col-span-2 md:col-span-1 rounded-3xl aspect-square max-w-full max-h-[350px]"
 									alt=""
 									loading="lazy"
 								/>
