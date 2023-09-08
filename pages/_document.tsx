@@ -10,7 +10,7 @@ const Document = () => {
 				/>
 				<meta
 					name="keywords"
-					content="summerfield, homestay, cafe, watukarung, indonesia, rooms, comfortable, vacation, holiday, travel, tourism, attractions, scenery, beautiful, relaxing, experience, unique, unforgettable"
+					content="summerfield, homestay, cafe, watukarung, indonesia, rooms, comfortable, vacation, holiday, travel, tourism, attractions, scenery, beautiful, relaxing, experience, unique, unforgettable, yogyakarta, beach, sea, mount, forest, hotel, motel, inn, resort, hostel, guesthouse, bed, breakfast, breakfast, airbnb, bnb, booking, reservation, room, stay, staycation, traveloka, tiket, agoda, tripadvisor, google, maps, instagram, facebook, twitter, whatsapp, email,location, address, price, cost, cheap, affordable, budget, promo, discount, free, wifi, parking, breakfast, lunch, dinner, food, drink, menu, restaurant, cafe, bar, swimming"
 				/>
 				<meta name="author" content="Summerfield" />
 				<meta name="og:title" content="Summerfield Homestay & Cafe" />
