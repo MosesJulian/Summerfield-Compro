@@ -1,9 +1,9 @@
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Main, NextScript, Head } from 'next/document';
 
 const Document = () => {
 	return (
 		<Html lang="en">
-			<Head title="Summerfield Homestay & Cafe">
+			<Head>
 				<meta
 					name="description"
 					content="Summerfield Homestay & Cafe is a homestay located in Watukarung, Yogyakarta, Indonesia. We offer a wide range of rooms and amenities to make your stay as comfortable as possible. We ensure your stay is unforgettable and relaxing."
@@ -20,9 +20,26 @@ const Document = () => {
 				/>
 				<meta name="og:type" content="website" />
 				<meta name="og:url" content="https://summerfield.vercel.app/" />
-				<meta name="og:image" content="/public/summerfield.png" />
+				<meta name="og:image" content="<generated>" />
+				<meta name='og:image:type' content='<generated>' />
+				<meta name='og:image:alt' content='<generated>' />
+				<meta name='og:image:width' content='<generated>' />
+				<meta name="og:image:height" content="<generated>" />
 				<meta name="og:site_name" content="Summerfield Homestay & Cafe" />
-				<meta name="og:locale" content="en_US" />
+
+				<meta name="twitter:title" content="Summerfield Homestay & Cafe" />
+				<meta
+					name="twitter:description"
+					content="Summerfield Homestay & Cafe is a homestay located in Watukarung, Yogyakarta, Indonesia. We offer a wide range of rooms and amenities to make your stay as comfortable as possible. We ensure your stay is unforgettable and relaxing."
+				/>
+				<meta name="twitter:type" content="website" />
+				<meta name="twitter:url" content="https://summerfield.vercel.app/" />
+				<meta name="twitter:image" content="<generated>" />
+				<meta name='twitter:image:type' content='<generated>' />
+				<meta name='twitter:image:alt' content='<generated>' />
+				<meta name='twitter:image:width' content='<generated>' />
+				<meta name="twitter:image:height" content="<generated>" />
+				<meta name="twitter:site_name" content="Summerfield Homestay & Cafe" />
 
 				<link rel="icon" href="/summerfield.ico" />
 				<link
