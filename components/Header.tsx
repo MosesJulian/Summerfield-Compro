@@ -100,6 +100,7 @@ const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 			<button
 				className="flex lg:hidden justify-end items-center"
 				onClick={() => setShowDialog(true)}
+				aria-label="Navigation Menu"
 			>
 				<AiOutlineMenu size={30} />
 			</button>
