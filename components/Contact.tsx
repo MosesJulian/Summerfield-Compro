@@ -46,6 +46,7 @@ const Contact: FC<ContactProps> = ({ className }: ContactProps) => {
 				{/** Location using google maps */}
 				<div className="col-span-2 md:col-span-1">
 					<iframe
+						title='Summerfield Homestay & Cafe Location'
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.679924752619!2d110.97260449999999!3d-8.234905399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bddb4c559615b%3A0x92a65fbacd988772!2sSummerfield%20Homestay%20and%20Cafe!5e0!3m2!1sen!2sid!4v1684126416158!5m2!1sen!2sid"
 						width="100%"
 						height="100%"
