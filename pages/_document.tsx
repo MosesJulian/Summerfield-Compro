@@ -20,11 +20,11 @@ const Document = () => {
 				/>
 				<meta name="og:type" content="website" />
 				<meta name="og:url" content="https://summerfield.vercel.app/" />
-				<meta name="og:image" content="<generated>" />
-				<meta name='og:image:type' content='<generated>' />
-				<meta name='og:image:alt' content='<generated>' />
-				<meta name='og:image:width' content='<generated>' />
-				<meta name="og:image:height" content="<generated>" />
+				<meta name="og:image" content="/public/summerfield.png" />
+				<meta name='og:image:type' content="png" />
+				<meta name='og:image:alt' content='Summerfield Homestay & Cafe' />
+				<meta name='og:image:width' content='600' />
+				<meta name="og:image:height" content="600" />
 				<meta name="og:site_name" content="Summerfield Homestay & Cafe" />
 
 				<meta name="twitter:title" content="Summerfield Homestay & Cafe" />
@@ -34,11 +34,8 @@ const Document = () => {
 				/>
 				<meta name="twitter:type" content="website" />
 				<meta name="twitter:url" content="https://summerfield.vercel.app/" />
-				<meta name="twitter:image" content="<generated>" />
-				<meta name='twitter:image:type' content='<generated>' />
-				<meta name='twitter:image:alt' content='<generated>' />
-				<meta name='twitter:image:width' content='<generated>' />
-				<meta name="twitter:image:height" content="<generated>" />
+				<meta name="twitter:image" content="/public/summerfield.png" />
+				<meta name='twitter:image:alt' content='Summerfield Homestay & Cafe' />
 				<meta name="twitter:site_name" content="Summerfield Homestay & Cafe" />
 
 				<link rel="icon" href="/summerfield.ico" />
