@@ -7,6 +7,7 @@ import Rooms from '@/components/Rooms';
 import { NextPage } from 'next';
 import Attractions from '@/components/Attractions';
 import Contact from '@/components/Contact';
+import Head from 'next/head';
 
 const inter = Inter({
 	subsets: ['latin'],
@@ -17,6 +18,10 @@ const inter = Inter({
 const Home: NextPage = () => {
 	return (
 		<>
+			<Head>
+				<title>Summerfield Homestay & Cafe</title>
+			</Head>
+
 			<Header />
 
 			<div className={`flex flex-col ${inter.variable} font-inter`}>
