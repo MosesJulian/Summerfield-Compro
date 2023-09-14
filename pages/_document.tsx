@@ -20,7 +20,7 @@ const Document = () => {
 				/>
 				<meta name="og:type" content="website" />
 				<meta name="og:url" content="https://www.summerfieldwatukarung.com/" />
-				<meta name="og:image" content="https://www.summerfieldwatukarung.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsummerfield.116bdb93.png&w=500&q=550" />
+				<meta name="og:image" content="https://www.summerfieldwatukarung.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsummerfield.116bdb93.png&w=1080&q=75" />
 				<meta name='og:image:type' content="png" />
 				<meta name='og:image:alt' content='Summerfield Homestay & Cafe' />
 				<meta name='og:image:width' content='600' />
@@ -34,7 +34,7 @@ const Document = () => {
 				/>
 				<meta name="twitter:type" content="website" />
 				<meta name="twitter:url" content="https://www.summerfieldwatukarung.com/" />
-				<meta name="twitter:image" content="https://www.summerfieldwatukarung.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsummerfield.116bdb93.png&w=500&q=550" />
+				<meta name="twitter:image" content="https://www.summerfieldwatukarung.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsummerfield.116bdb93.png&w=1080&q=75" />
 				<meta name='twitter:image:alt' content='Summerfield Homestay & Cafe' />
 				<meta name="twitter:site_name" content="Summerfield Homestay & Cafe" />
 
