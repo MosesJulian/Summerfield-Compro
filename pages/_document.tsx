@@ -10,7 +10,7 @@ const Document = () => {
 				/>
 				<meta
 					name="keywords"
-					content="summerfield, homestay, cafe, watukarung, indonesia, rooms, comfortable, vacation, holiday, travel, tourism, attractions, scenery, beautiful, relaxing, experience, unique, unforgettable, yogyakarta, beach, sea, mount, forest, hotel, motel, inn, resort, hostel, guesthouse, bed, breakfast, breakfast, airbnb, bnb, booking, reservation, room, stay, staycation, traveloka, tiket, agoda, tripadvisor, google, maps, instagram, facebook, twitter, whatsapp, email,location, address, price, cost, cheap, affordable, budget, promo, discount, free, wifi, parking, breakfast, lunch, dinner, food, drink, menu, restaurant, cafe, bar, swimming"
+					content="Summerfield Homestay & Cafe, Summerfield Homestay and Cafe, summerfield homestay & cafe, summerfield homestay and cafe, summerfield watukarung, summerfield yogyakarta, summerfield indonesia, homestay yogyakarta, homestay watukarung, homestay indonesia, cafe yogyakarta, cafe watukarung, cafe indonesia, summerfield, homestay, cafe, watukarung"
 				/>
 				<meta name="author" content="Summerfield" />
 				<meta name="og:title" content="Summerfield Homestay & Cafe" />
@@ -19,8 +19,8 @@ const Document = () => {
 					content="Summerfield Homestay & Cafe is a homestay located in Watukarung, Yogyakarta, Indonesia. We offer a wide range of rooms and amenities to make your stay as comfortable as possible. We ensure your stay is unforgettable and relaxing."
 				/>
 				<meta name="og:type" content="website" />
-				<meta name="og:url" content="https://summerfield.vercel.app/" />
-				<meta name="og:image" content="/public/summerfield.png" />
+				<meta name="og:url" content="https://www.summerfieldwatukarung.com/" />
+				<meta name="og:image" content="https://www.summerfieldwatukarung.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsummerfield.116bdb93.png&w=64&q=75" />
 				<meta name='og:image:type' content="png" />
 				<meta name='og:image:alt' content='Summerfield Homestay & Cafe' />
 				<meta name='og:image:width' content='600' />
@@ -33,8 +33,8 @@ const Document = () => {
 					content="Summerfield Homestay & Cafe is a homestay located in Watukarung, Yogyakarta, Indonesia. We offer a wide range of rooms and amenities to make your stay as comfortable as possible. We ensure your stay is unforgettable and relaxing."
 				/>
 				<meta name="twitter:type" content="website" />
-				<meta name="twitter:url" content="https://summerfield.vercel.app/" />
-				<meta name="twitter:image" content="/public/summerfield.png" />
+				<meta name="twitter:url" content="https://www.summerfieldwatukarung.com/" />
+				<meta name="twitter:image" content="https://www.summerfieldwatukarung.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsummerfield.116bdb93.png&w=64&q=75" />
 				<meta name='twitter:image:alt' content='Summerfield Homestay & Cafe' />
 				<meta name="twitter:site_name" content="Summerfield Homestay & Cafe" />
 
