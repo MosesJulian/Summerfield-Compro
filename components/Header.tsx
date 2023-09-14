@@ -73,13 +73,11 @@ const Header: FC<HeaderProps> = ({ className }: HeaderProps) => {
 				className
 			)}
 		>
-			<div className="flex gap-5 items-center justify-start">
+			<div className="flex gap-5 items-center justify-start overflow-hidden w-fit h-[50px]">
 				<Image
 					src={Summerfield}
-					width={50}
-					height={50}
 					alt="Summerfield"
-					className="rounded-full"
+					className="rounded-full w-full max-w-[50px] h-auto"
 					loading="lazy"
 				/>
 				<h1 className="text-xl font-bold">Summerfield Homestay & Cafe</h1>
